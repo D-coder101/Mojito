@@ -9,7 +9,7 @@ function Hero() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useGSAP(() => {
-    const heroSplit = new SplitText(".title", { type: "chars, workds" });
+    const heroSplit = new SplitText(".title", { type: "chars, words" });
 
     const paragraphSplit = new SplitText(".subtitle", { type: "lines" });
 
